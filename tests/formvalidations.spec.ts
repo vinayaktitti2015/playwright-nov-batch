@@ -82,7 +82,7 @@ test("check input values", async ({ page }) => {
   await expect(passwordInput).toEqual("admin123");
 });
 
-test.only("check placeholders exist or not", async ({ page }) => {
+test("check placeholders exist or not", async ({ page }) => {
   await page.goto(
     "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
   );

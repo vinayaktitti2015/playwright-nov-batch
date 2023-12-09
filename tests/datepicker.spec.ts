@@ -63,7 +63,7 @@ async function selectEndDate(page: Page, dateToSelect: string) {
   await page.click("//td[@class='day'][text()='4']");
 }
 
-test.only("should select the date by using widget", async ({ page }) => {
+test("should select the date by using widget", async ({ page }) => {
   await page.goto(
     "https://www.lambdatest.com/selenium-playground/bootstrap-date-picker-demo"
   );
