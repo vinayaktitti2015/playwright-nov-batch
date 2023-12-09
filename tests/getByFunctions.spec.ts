@@ -34,7 +34,7 @@ test.describe("get by functions usage suite", () => {
     await page.close();
   });
 
-  test.only("getByTestID attribute usage", async ({ page }) => {
+  test("getByTestID attribute usage", async ({ page }) => {
     await page.goto("https://www.iproperty.com.my/");
 
     try {

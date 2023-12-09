@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { GlobalSQAPage } from "../pages/globalsqaPage.po";
-const data = require("../testdata/formdata.json");
+import { GlobalSQAPage } from "../../pages/globalsqaPage.po";
+const data = require("../../testdata/formdata.json");
 test.describe("form submission", function () {
   const BASE_URL = process.env.URL;
   test("should fill the form", async ({ page }) => {
