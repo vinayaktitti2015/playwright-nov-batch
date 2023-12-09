@@ -62,7 +62,7 @@ test("verify form field validations", async ({ page }) => {
   await expect(emailInput).toEqual("james@yahoo.com");
 });
 
-test.only("check input values", async ({ page }) => {
+test("check input values", async ({ page }) => {
   await page.goto(
     "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
   );

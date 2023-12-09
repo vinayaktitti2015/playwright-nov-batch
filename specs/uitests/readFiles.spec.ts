@@ -12,7 +12,7 @@ test("should read the files in the directory", async ({ page }) => {
   });
 });
 
-test.only("should write the contents to the file", async ({ page }) => {
+test("should write the contents to the file", async ({ page }) => {
   fs.writeFile(
     "../testdata/user.txt",
     'Playwright tests',
